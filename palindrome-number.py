@@ -1,3 +1,7 @@
+# Problem Descrption:
+# https://leetcode.com/problems/palindrome-number/description/
+# Tags: #easy, #math
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         # converting number to string to enable reversing of the number

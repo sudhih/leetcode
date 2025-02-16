@@ -1,3 +1,6 @@
+# Problem Description: https://leetcode.com/problems/two-sum/description/
+# Tags: #easy, #array, #hash-table
+
 class Solution(object):
     def twoSum(self, nums, target):
         """
