@@ -22,5 +22,27 @@
   "Leetcode assert": {
     "prefix": "asr",
     "body": ["assert ${1:output} == ${2:expected}, ($1, $2)"]
+  },
+  "Template file for Leetcode Python": {
+    "prefix": "template",
+    "body": [
+      "# Problem Description: ",
+      "#   https://leetcode.com/problems/${1:dashified-problem-name}/description",
+      "# Tags: #${2:difficulty}, #${3:topics}",
+      "",
+      "class Solution:",
+      "    def ${4:leetcode-method-name}():",
+      "        $5",
+      "\n# `pyleet` tests here",
+      "\n\n",
+      "# Want to debug? uncomment the below",
+      "# if __name__ == '__main__':",
+      "#     s = Solution()",
+      "#     out = s.<methodName>(<args>)",
+      "#     for input, expected in tests:",
+      "#         out = s.<methodName>(*input)",
+      "#         assert out == expected, f\"input: {input}, output: {out}, expected: {expected}\"",
+    ]
   }
+  
 }
