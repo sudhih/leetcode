@@ -13,8 +13,7 @@ class Solution:
             current = symbols.__getattribute__(input[i])
             try:
                 after = symbols.__getattribute__(input[i+1])
-            except IndexError as e:
-                # print(f"Got expected IndexError: {e}")
+            except IndexError:
                 after = current
             if current < after:
                 sum += after - current
