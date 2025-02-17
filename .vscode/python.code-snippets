@@ -31,17 +31,16 @@
       "# Tags: #${2:difficulty}, #${3:topics}",
       "",
       "class Solution:",
-      "    def ${4:leetcode-method-name}():",
+      "    def ${4:leetcode-method-name}(self, input):",
       "        $5",
       "\n# `pyleet` tests here",
       "\n\n",
       "# Want to debug? uncomment the below",
       "# if __name__ == '__main__':",
       "#     s = Solution()",
-      "#     out = s.<methodName>(<args>)",
       "#     for input, expected in tests:",
-      "#         out = s.<methodName>(*input)",
-      "#         assert out == expected, f\"input: {input}, output: {out}, expected: {expected}\"",
+      "#         output = s.<methodName>(*input)",
+      "#         assert output == expected, f\"input: {input}, output: {output}, expected: {expected}\"",
     ]
   }
   
